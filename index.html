@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>floxybox</title>
+    <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome Version 6 CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="icon" type="image/x-icon" href="https://www.dropbox.com/scl/fi/a4yfwp5c2vygmmpx0p2z1/kritika-web-icon.png?rlkey=hdhiez3ifop1t16h9aqq2x7uu&st=d19bv1th&raw=1" >
+</head>
+<body>
+<header class="header">
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div> 
+ <!-- Use any element to open the sidenav -->
+<span onclick="openNav()"><i class="fa-solid fa-bars"></i></span>
+
+ <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+    <a href="#" class="logo">
+        <img src="logo-removebg-preview.png" alt="logo">
+    </a>
+
+    <div class="header-icons" >
+
+        <a href="#">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+
+        <a href="#">
+            <i class="fa-solid fa-bag-shopping"></i>
+        </a>
+
+        <a href="#">
+            <i class="fa-regular fa-heart"></i>
+        </a>
+
+    </div>
+    </header>
+
+    <!---------------------------- hero ----------------------->
+<section class="hero">
+ <video autoplay muted loop playsinline class="hero-video">
+        <source src="https://www.dropbox.com/scl/fi/9fe34nepgtf0zn26i40tl/Luxury_fashion_commercial_FloxyBox_202606111602.mp4?rlkey=rgn4wva461ya1cq2cxnwveu75&st=ashkta2d&raw=1" type="video/mp4">
+    </video>
+
+    <div class="hero-content">
+        <span class="sub-title">NEW COLLECTION 2026</span>
+        <h1>Luxury in every detail.</h1>
+    </div>
+</section> 
+  <!-- --------------------------------hero ------------------------------->
+   <!-- -------------------------------category-section----------------- -->
+<section class="category-section">
+    <div class="section-title">
+        <span></span>
+        <h2>Category</h2>
+    <span></span></div>
+
+    <div class="category-grid">
+
+        <a href="#">
+            <div class="category-image0">
+                <img src="https://images.meesho.com/images/marketing/1744634654837.webp" alt="">
+            </div>
+            <h3>Ethnic Wear</h3>
+        </a>
+
+
+        <a href="#">
+            <div class="category-image0">
+                <img src="https://images.meesho.com/images/marketing/1744634725496.webp" alt="">
+            </div>
+            <h3>Western Wear</h3>
+        </a>
+
+        <a href="#">
+            <div class="category-image0">
+                <img src="https://images.meesho.com/images/marketing/1744634780426.webp" alt="">
+            </div>
+            <h3>Men wear</h3>
+        </a>
+
+                <a href="#">
+            <div class="category-image0">
+                <img src="https://images.meesho.com/images/marketing/1744634871107.webp" alt="">
+            </div>
+            <h3>Beauty</h3>
+        </a>
+
+
+                <a href="#">
+            <div class="category-image0">
+                <img src="https://images.meesho.com/images/marketing/1744634909968.webp" alt="">
+            </div>
+            <h3>Accessories</h3>
+        </a>
+    </div>
+</section>
+   <!-- -------------------------------category-section----------------- -->
+    <!-- brand spotlight section -->
+    <!-- Brand Spotlight Section -->
+<section class="brand-spotlight">
+
+    <div class="section-title">
+        <span></span>
+        <h2>BRAND SPOTLIGHT</h2>
+        <span></span>
+    </div>
+
+    <div class="products-grid">
+
+        <!-- Product 1 -->
+        <div class="product-card">
+            <img src="https://img.tatacliq.com/images/i21//437Wx649H/MP000000024881098_437Wx649H_202412292345221.jpeg" alt="royal blue dress">
+            <h3>Miss Chase</h3>
+            <p class="price">₹49.99</p>
+            <button>Buy Now</button>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+            <img src="https://www.soch.com/media/catalog/product/e/w/ewa3cd20192a_01.jpg?width=454&optimize=medium" alt="ethnic wear">
+            <h3>White ivory-elegance</h3>
+            <p class="price">₹29.99</p>
+            <button>Buy Now</button>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+            <img src="https://horsewelly.com/cdn/shop/files/Navy_Blue_Super_Soft_Luxurious_Cotton_Formal_Shirt-1.png?v=1740651331&width=713" alt="Shirt">
+            <h3>Formal Shirt</h3>
+            <p class="price">₹39.99</p>
+            <button>Buy Now</button>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+            <img src="https://www.dropbox.com/scl/fi/4i0z7j6tckb2zh6znpk2y/beauty.png?rlkey=uzcv0n0m8z8opwtirdujfjmyj&st=e6jizdbe&raw=1" alt="Beauty Set">
+            <h3>Beauty Set</h3>
+            <p class="price">₹59.99</p>
+            <button>Buy Now</button>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card">
+            <img src="https://assets-jiocdn.ajio.com/medias/sys_master/root/20250104/brSr/677867900f47f80c8737ca86/-473Wx593H-701011924-silver-MODEL.jpg" alt="silver jwellery">
+            <h3>silver artificial jewellery</h3>
+            <p class="price">₹69.99</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+
+</section>
+
+
+<section class="banner">
+    <img src="https://www.dropbox.com/scl/fi/10shpgldfa7om3m6sfw1v/ChatGPT-Image-Jun-18-2026-07_32_29-PM.png?rlkey=0jvzn0t3qyx85y6mvpyyvtb26&st=hiz98z4q&raw=1" alt="banner image">
+</section>
+
+<!----------------------- trending products--------------- -->
+<section class="trending-products">
+    <div class="section-title">
+        <span></span>
+        <h2>TRENDING PRODUCTS</h2>
+        <span></span>
+    </div>
+
+    
+    <div class="products-grid">
+
+        <!-- Product 1 -->
+        <div class="product-card">
+            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQgNE1tDVo8h5OXvxflt4dIDP-FfVOSzROeN32IpCATT-onagCw_WOpD1Ceeo85PDjoTA7u3Bqj6g58-tmZfKIVj08fqzV44T429o6tXQXs" alt="royal blue dress">
+            <h3>Pink floral dress</h3>
+            <p class="price">₹2500.99</p>
+            <button>Buy Now</button>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+            <img src="https://www.carlington.in/cdn/shop/products/CT_2045_Black_M_1.webp?v=1708663005&width=2048" alt="ethnic wear">
+            <h3>Luxury Black Watch</h3>
+            <p class="price">₹2599.99</p>
+            <button>Buy Now</button>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+            <img src="https://vardo.co.in/cdn/shop/files/WhiteSoldiShirt.png?v=1750587128" alt="Shirt">
+            <h3>Formal White Shirt</h3>
+            <p class="price">₹1000.99</p>
+            <button>Buy Now</button>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+            <img src="https://i.pinimg.com/736x/47/89/67/47896755a143f341fec8c8f2c9e26e51.jpg" alt="Beauty Set">
+            <h3>Ethnic wear</h3>
+            <p class="price">₹5451.99</p>
+            <button>Buy Now</button>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card">
+            <img src="https://dunali.com/cdn/shop/files/Pink_Ruched_Slit_Tulle_Strapless_Sleeveless_Sheath_Gown_Dress_3.jpg?v=1769065668&width=832" alt="silver jwellery">
+            <h3>Oliv green party dress</h3>
+            <p class="price">₹6000.99</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+<br>
+    
+    <div class="products-grid">
+
+        <!-- Product 6 -->
+        <div class="product-card">
+            <img src="https://i.pinimg.com/236x/bd/22/45/bd22459afe97e3b074932afb895e1e3b.jpg" alt="royal blue dress">
+            <h3>Miss Chase </h3>
+            <p class="price">₹3500.99</p>
+            <button>Buy Now</button>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="product-card">
+            <img src="https://i.pinimg.com/736x/a3/7a/40/a37a40d8248669fa20fc3b35a5bf4e61.jpg" alt="ethnic wear">
+            <h3>White Luxury jwellery</h3>
+            <p class="price">₹2900.99</p>
+            <button>Buy Now</button>
+        </div>
+
+        <!-- Product 8 -->
+        <div class="product-card">
+            <img src="https://i.pinimg.com/736x/06/cf/24/06cf245582c310908db1fa52199a047c.jpg" alt="Saree">
+            <h3>Black saree</h3>
+            <p class="price">₹3900.99</p>
+            <button>Buy Now</button>
+        </div>
+
+        <!-- Product 9 -->
+        <div class="product-card">
+            <img src="https://i.pinimg.com/736x/91/e1/dc/91e1dc571343d0eda08998aea8ee115b.jpg" alt="blazer">
+            <h3>Blazer</h3>
+            <p class="price">₹5999.99</p>
+            <button>Buy Now</button>
+        </div>
+
+        <!-- Product 10 -->
+        <div class="product-card">
+            <img src="https://i.pinimg.com/736x/be/18/4f/be184fc06735caa29dd7517d7979bfd8.jpg" alt="silver jwellery">
+            <h3>silver artificial braslet</h3>
+            <p class="price">₹600</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+
+</section>
+
+<!-- -------------------------form ------------------------->
+ <section class="contact">
+
+    <div class="contact-container">
+
+        <!-- Left Side -->
+        <div class="contact-info">
+
+            <span class="contact-subtitle">
+                GET IN TOUCH
+            </span>
+
+            <h2>
+                WE'D LOVE TO <br>
+                HEAR FROM YOU!
+            </h2>
+
+            <p>
+                Have a question or need help?
+                Fill out the form and we'll get back
+                to you as soon as possible.
+            </p>
+
+            <div class="contact-item">
+                <i class="fa-regular fa-envelope"></i>
+                support@floxybox.com
+            </div>
+
+            <div class="contact-item">
+                <i class="fa-solid fa-phone"></i>
+                8810265322
+            </div>
+
+            <div class="contact-item">
+                <i class="fa-solid fa-location-dot"></i>
+                123 Fashion Street, New Delhi, India
+            </div>
+
+        </div>
+
+        <!-- Right Side -->
+
+        <div class="contact-form">
+
+            <form>
+
+                <div class="form-row">
+
+                    <input type="text"
+                    placeholder="Your Name"
+                    required>
+
+                    <input type="email"
+                    placeholder="Your Email"
+                    required>
+
+                </div>
+
+                <input type="text"
+                placeholder="Subject">
+
+                <textarea
+                placeholder="Your Message"
+                rows="6"></textarea>
+
+                <button type="submit">
+                    SEND MESSAGE
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+</body>
+<script src="MAIN.JS">
+</script>
+</html>
